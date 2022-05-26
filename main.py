@@ -8,7 +8,7 @@ C) quantas mulheres tem menos de 20 anos.'''
 
 numhomem = somaidade = num_mulheres = 0
 while True:
-    print(f'------ CADASTRE UMA PESSOA ------')
+    print('------ CADASTRE UMA PESSOA ------')
     idade = int(input('Idade: '))
     sexo = ' '
     while sexo not in 'FM':
